@@ -27,13 +27,15 @@
   --champagne-pink: hsl(23, 61%, 86%);
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
-  --deep-saffron: hsl(32, 100%, 59%);
+  --deep-saffron2: hsl(51,92%,59%);
+  --deep-saffron: hsl(215, 50%, 60%);
   --dark-orange: hsl(28, 100%, 58%);
   --desert-sand: hsl(23, 49%, 82%);
-  --isabelline: hsl(38, 44%, 96%);
+  --isabelline: hsl(51,92%,59%);
   --gainsboro: hsl(0, 0%, 87%);
+  --blue_pastel: hsl(215, 50%, 60%);
   --tangerine: hsl(31, 84%, 50%);
-  --cinnabar: hsl(3, 90%, 55%);
+  --cinnabar: hsl(0, 65%, 51%);
   --black_95: hsla(0, 0%, 0%, 0.95);
   --cultured: hsl(0, 0%, 93%);
   --white: hsl(0, 0%, 100%);
@@ -284,7 +286,7 @@ body.active { overflow: hidden; }
 
 .section-title > .span {
   display: inline-block;
-  color: var(--deep-saffron);
+  color: var(--dark-orange);
 }
 
 .abs-img {
@@ -536,7 +538,7 @@ body.active { overflow: hidden; }
 }
 
 .hero-subtitle {
-  color: var(--dark-orange);
+  color: var(--deep-saffron2);
   font-family: var(--ff-shadows-into-light);
   font-size: var(--fs-3);
   letter-spacing: 1px;
@@ -841,7 +843,7 @@ body.active { overflow: hidden; }
 }
 
 .cta .section-text {
-  color: var(--gainsboro);
+  color: var(--deep-saffron2);
   margin-block: 25px 20px;
 }
 
